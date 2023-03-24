@@ -12,3 +12,4 @@ mathematical expression and
 The result.
 4. Clear Screen Button.
 5. Calculate button (=).
+![calculator](https://user-images.githubusercontent.com/126160382/227596624-361e34af-51d8-4196-9481-90eaa564b0ba.png)
