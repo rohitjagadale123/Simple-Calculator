@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator | Rohit</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="calculator">
+      <div class="display">
+        <input type="text" id="result" placeholder="0">
+      </div>
+      <div class="button-row">
+        <button onclick="clearResult()">C</button>
+        <button onclick="backspace()">⌫</button>
+        <button onclick="insertSymbol('/')">÷</button>
+        <button onclick="insertSymbol('*')">x</button>
+      </div>
+      <div class="button-row">
+        <button onclick="insertNumber('7')">7</button>
+        <button onclick="insertNumber('8')">8</button>
+        <button onclick="insertNumber('9')">9</button>
+        <button onclick="insertSymbol('-')">-</button>
+      </div>
+      <div class="button-row">
+        <button onclick="insertNumber('4')">4</button>
+        <button onclick="insertNumber('5')">5</button>
+        <button onclick="insertNumber('6')">6</button>
+        <button onclick="insertSymbol('+')">+</button>
+      </div>
+      <div class="button-row">
+        <button onclick="insertNumber('1')">1</button>
+        <button onclick="insertNumber('2')">2</button>
+        <button onclick="insertNumber('3')">3</button>
+        <button onclick="calculate()">=</button>
+      </div>
+      <div class="button-row">
+        <button onclick="insertNumber('0')">0</button>
+        <button onclick="insertSymbol('.')">.</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
